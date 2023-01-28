@@ -912,7 +912,7 @@ footer .row-col:first-child .icon {
 }
 
 footer .row-col:first-child a:not(:last-of-type) {
-  margin-right: 1.2rem;
+  margin-right: 0.7rem;
 }
 
 .copyright {
