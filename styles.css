@@ -691,7 +691,7 @@ img.impossible {
 }
 
 
-.left-col {
+.advanteges .left-col {
   display: flex;
   align-items: center;
   flex: 1;
@@ -718,7 +718,8 @@ img.impossible {
     flex-basis: 100%;
   }
 
-  .left-col {
+  .advanteges .left-col {
+    display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 5rem;
