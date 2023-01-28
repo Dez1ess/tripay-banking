@@ -907,12 +907,12 @@ label {
   color: #3C50E0;
   text-align: center;
   border-radius: 8px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 1.8rem 0 8rem;
 }
 
 .row-col:first-child a:not(:last-of-type) {
-  margin-right: 1.2rem;
+  margin-right: 0.7rem;
 }
 
 .copyright {
