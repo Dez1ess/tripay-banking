@@ -899,15 +899,15 @@ footer .row-col:first-child p {
 
 footer .row-col:first-child .icon {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   text-align: center;
-  line-height: 30px;
+  line-height: 20px;
   background-color: #fff;
   color: #3C50E0;
   text-align: center;
   border-radius: 8px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 1.8rem 0 8rem;
 }
 
@@ -960,7 +960,7 @@ footer .row-col ul li {
   }
 
   footer .row-col {
-    width: 70%;
+    width: 50%;
     margin-bottom: 1rem;
   }
 
