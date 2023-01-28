@@ -713,6 +713,10 @@ img.impossible {
 
 
 @media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0; 
+  } 	
+
   .advanteges .col {
     flex-basis: 100%;
     width: 100%;
