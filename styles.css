@@ -697,6 +697,7 @@ img.impossible {
   flex: 1;
   width: 50%;
   padding: 0 3.7rem;
+  text-align: center;
 }
 
 .right-col {
