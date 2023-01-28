@@ -912,7 +912,7 @@ footer .row-col:first-child .icon {
 }
 
 footer .row-col:first-child a:not(:last-of-type) {
-  margin-right: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 .copyright {
@@ -949,7 +949,7 @@ footer .row-col ul li {
 @media screen and (max-width: 1150px) {
   footer .row-col {
     width: 25%;
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
 }
 
@@ -960,7 +960,7 @@ footer .row-col ul li {
   }
 
   footer .row-col {
-    width: 55%;
+    width: 70%;
     margin-bottom: 1rem;
   }
 
