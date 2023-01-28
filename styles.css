@@ -300,7 +300,7 @@ button:hover {
 
   .hamburger_container {
     position: fixed;
-    right: 40px;
+    right: 60px;
     display: inline-block;
     cursor: pointer;
     z-index: 1000;
