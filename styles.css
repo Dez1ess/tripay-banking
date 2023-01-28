@@ -871,25 +871,25 @@ label {
   color: inherit;
 }
 
-footer .row {
+.row {
   max-width: 1170px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-footer .row-col {
+.row-col {
   width: 25%;
   padding: 2rem 6rem;
 }
 
-footer .row-col:first-child h4 {
+.row-col:first-child h4 {
   font-weight: 700;
   font-size: 2.8rem;
   line-height: 2.5rem;
 }
 
-footer .row-col:first-child p {
+.row-col:first-child p {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 3.4rem;
@@ -897,22 +897,22 @@ footer .row-col:first-child p {
   color: #E8E8E8;
 }
 
-footer .row-col:first-child .icon {
+.row-col:first-child .icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   text-align: center;
-  line-height: 20px;
+  line-height: 30px;
   background-color: #fff;
   color: #3C50E0;
   text-align: center;
   border-radius: 8px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 1.8rem 0 8rem;
 }
 
-footer .row-col:first-child a:not(:last-of-type) {
-  margin-right: 0.5rem;
+.row-col:first-child a:not(:last-of-type) {
+  margin-right: 1.2rem;
 }
 
 .copyright {
@@ -925,9 +925,10 @@ footer .row-col:first-child a:not(:last-of-type) {
 
 .copyright-responsive {
   display: none;
+
 }
 
-footer .row-col h4 {
+.row-col h4 {
   color: #E8E8E8;
   font-size: 1.8rem;
   font-weight: 600;
@@ -935,32 +936,32 @@ footer .row-col h4 {
   margin-bottom: 3.3rem;
 }
 
-footer .row-col a {
+.row-col a {
   color: #E8E8E8;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.1rem;
 }
 
-footer .row-col ul li {
+.row-col ul li {
   margin-bottom: 1.6rem;
 }
 
 @media screen and (max-width: 1150px) {
-  footer .row-col {
+  .row-col {
     width: 25%;
-    padding: 0 3rem;
+    padding: 2rem 4rem;
   }
 }
 
 
 @media screen and (max-width: 800px) {
-  footer.footer-container {
+  .footer-container {
     padding: 5rem 0;
   }
 
-  footer .row-col {
-    width: 25%;
+  .row-col {
+    width: 50%;
     margin-bottom: 1rem;
   }
 
@@ -969,9 +970,12 @@ footer .row-col ul li {
   }
 
   .copyright-responsive {
-    display: inline-block;
-    
+    display: block;
     margin-top: 10rem;
+  }
+
+  .row-col:first-child .icon {
+    margin: 1rem 0;
   }
 
 }
